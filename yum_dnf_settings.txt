@@ -1,0 +1,7 @@
+
+#CentOS yum proxy setup
+#Edit (as sudo or root) the /etc/yum.conf or /etc/dnf/dnf.conf file to make use of cntlm proxy from VirtualBox Linux VM using NAT
+
+proxy=http://10.0.2.2:3128
+
+
