@@ -41,8 +41,8 @@ Components
 * example .bash_profile relevant config parts
 
 Pre-requisites:
-[Cntlm] (https://sourceforge.net/projects/cntlm/files/)
-[Squid for Windows] (http://docs.diladele.com/tutorials/installing_squid_windows/index.html)) 
+[Cntlm] (https://sourceforge.net/projects/cntlm/files/)  
+[Squid for Windows] (http://docs.diladele.com/tutorials/installing_squid_windows/index.html))   
 
 
 Operations
