@@ -39,7 +39,7 @@ Components
 * Squid.conf pre-configured to bind to port 3129
 * example .bash_profile relevant config parts
 
-Pre-requisites:
+Pre-requisites:  
 [Cntlm] (https://sourceforge.net/projects/cntlm/files/)  
 [Squid for Windows] (http://docs.diladele.com/tutorials/installing_squid_windows/index.html))   
 
