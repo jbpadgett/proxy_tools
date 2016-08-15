@@ -1,0 +1,28 @@
+
+
+<INTERNET> 			<INTERNET>
+	|					|
+	|					|
+corp proxy			direct internet
+	|					|
+	|					|
+	---------------------
+			 |
+			 |
+			 |
+#################################
+#	HOST (Windows 7/10/etc)		#				 ##############
+#	VirtualBox					#----------------# VM (Linux) #
+#	cntlm	(port 3128)			#				 ##############		.bash_profile (export proxy set to vbox nat default gateway 10.0.2.2:3128)
+# 		--proxy1 set to corp	#
+#		--proxy2 set to squid	#
+#	squid	(port 3129)			#
+#		--using no proxy		#
+#################################
+
+
+
+
+
+
+
