@@ -21,7 +21,6 @@ Solution Design
 * Cntlm configured with:
 	1. Corp proxy
 	2. Local squid proxy on alternative port
-
 * Linux VM bash profile configured to use the cntlm proxy
 
 
