@@ -40,12 +40,20 @@ Components
 * Squid.conf pre-configured to bind to port 3129
 * example .bash_profile relevant config parts
 
+Pre-requisites:
+[Cntlm] (https://sourceforge.net/projects/cntlm/files/)
+[Squid for Windows] (http://docs.diladele.com/tutorials/installing_squid_windows/index.html)) 
+
 
 Operations
 ------------
-1. Launch Squid proxy (download Squid for Windows [here](http://docs.diladele.com/tutorials/installing_squid_windows/index.html))
+1. Launch Squid proxy (use Windows services or Squid systray tool)
 
 2. Start Cntlm from administrator enabled command prompt:  net start cntlm
+
+
+
+
 
 
 
