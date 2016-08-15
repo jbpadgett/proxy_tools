@@ -1,0 +1,38 @@
+
+#Ubuntu Apt proxy setup
+#Create (as sudo or root) the /etc/apt/apt.conf file to make use of cntlm proxy from VirtualBox Linux VM using NAT
+
+Acquire::http::Proxy "http://10.0.2.2:3128";
+Acquire::ftp::Proxy  "http://10.0.2.2:3128";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
