@@ -1,0 +1,33 @@
+####################
+# Wget with Proxy
+####################
+
+
+sudo vi /etc/wgetrc
+
+# Proxy with VirtualBox VM
+https_proxy  = http://10.0.2.2:3128
+http_proxy = http://10.0.2.2:3128
+
+ftp_proxy = http://10.0.2.2:3128
+use_proxy = on
+
+
+# Proxy on Host (Windows using Cygwin or Bash)
+https_proxy  = http://localhost:3128
+http_proxy = http://localhost:3128
+
+ftp_proxy = http://localhost:3128
+use_proxy = on
+
+
+
+
+
+
+
+
+
+
+
+
