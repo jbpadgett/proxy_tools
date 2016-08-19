@@ -12,7 +12,7 @@ There are some sophisticated ways to solve the in-office/out-of-office settings 
 The solution preseneted here assumes the following:
 * Stuck using Windows 7/10/x as your host OS
 * Stuck with a corporate NTLM authenticated proxy
-* Using Virtualbox for a development and virtualization tooling
+* Using Virtualbox for development and virtualization tooling
 * Using a Linux VM in Virtualbox
 * Desire to seamlessly move in and out of corp offices and home without the need to edit the cntlm.ini or autodetect network locations
 
@@ -37,7 +37,9 @@ Components
 --------------
 * Cntlm.ini file pre-configured, but you need to add your user account and password hash, domain, and proxy
 * Squid.conf pre-configured to bind to port 3129
-* example .bash_profile relevant config parts
+* Example .bash_profile relevant config parts
+* Example yum/apt/dnf config
+* Example wget config
 
 Pre-requisites:  
 [Cntlm] (https://sourceforge.net/projects/cntlm/files/)  
