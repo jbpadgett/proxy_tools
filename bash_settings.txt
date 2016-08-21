@@ -1,14 +1,14 @@
 #################
-.BASH_PROFILE
+# .BASH_PROFILE
 
-On a Windows machine using Cygwin, use this:
+#On a Windows machine using Cygwin, use this:
 
 # PROXIES
 export http_proxy="localhost:3128"
 
 
 
-On a Linux VM from Virtualbox with NAT, use the default Vbox gateway this:
+#On a Linux VM from Virtualbox with NAT, use the default Vbox gateway this:
 
 # PROXIES
 export http_proxy="10.0.2.2:3128"
