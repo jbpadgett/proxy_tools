@@ -7,7 +7,7 @@ Let's face it, having a corporate proxy with NTLM based authentication really su
 The forced authentication to an AD backed directory makes sense but creates pain when you work in a terminal and unix/linux world.
 Thankfully over the past decade or so some amazing people have created some tooling to help navigate the NTLM proxy landscape.
 Among these tools, cntlm is a fantastic solution to this problem.  While cntlm solves 90% of your problems, that last 10% involves turning proxy settings off easily when you are away from the office.
-There are some sophisticated ways to solve the in-office/out-of-office settings detection dillema, but I have opted for a "simple" one which was inspired from a ServerFault post (http://serverfault.com/questions/506046/configure-cntlm-to-use-no-proxy-if-none-are-available).
+There are some sophisticated ways to solve the in-office/out-of-office settings detection dilemma, but I have opted for a "simple" one which was inspired from a ServerFault post (http://serverfault.com/questions/506046/configure-cntlm-to-use-no-proxy-if-none-are-available).
 
 The solution preseneted here assumes the following:
 * Stuck using Windows 7/10/x as your host OS
@@ -15,6 +15,7 @@ The solution preseneted here assumes the following:
 * Using Virtualbox for development and virtualization tooling
 * Using a Linux VM in Virtualbox
 * Desire to seamlessly move in and out of corp offices and home without the need to edit the cntlm.ini or autodetect network locations
+* Have local admin priviledges
 
 Solution Design
 ------------------
